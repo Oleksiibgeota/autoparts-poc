@@ -1,5 +1,10 @@
 package com.enifsoft.autoParts.poc.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Price {
     private int partId;
     private int brandId;
