@@ -1,5 +1,10 @@
 package com.enifsoft.autoParts.poc.domain;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Detail {
     private String brand;
     private int number;
