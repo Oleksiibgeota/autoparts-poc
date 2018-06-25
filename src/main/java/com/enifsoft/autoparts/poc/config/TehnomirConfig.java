@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.config;
+package com.enifsoft.autoparts.poc.config;
 
 import org.springframework.stereotype.Component;
 

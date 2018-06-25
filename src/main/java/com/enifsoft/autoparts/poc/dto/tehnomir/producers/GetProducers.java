@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.dto.tehnomir.currencies;
+package com.enifsoft.autoparts.poc.dto.tehnomir.producers;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -10,11 +10,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @Getter
 @Setter
-@XmlRootElement(name = "GetCurrencies")
+@XmlRootElement(name = "GetProducers")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class GetCurrencies {
+public class GetProducers {
 
-    @XmlElement(name = "Currencies")
-    private Currencies list;
+    @XmlElement(name = "Producers")
+    private Producers list;
 
 }

@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.dto.tehnomir.producers;
+package com.enifsoft.autoparts.poc.dto.tehnomir.producers;
 
 import lombok.Getter;
 import lombok.Setter;

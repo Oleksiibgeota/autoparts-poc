@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.dto.tehnomir.currencies;
+package com.enifsoft.autoparts.poc.dto.tehnomir.currencies;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,6 +1,5 @@
-package com.enifsoft.autoParts.poc.dto.tehnomir;
+package com.enifsoft.autoparts.poc.dto.tehnomir.currencies;
 
-import com.enifsoft.autoParts.poc.dto.tehnomir.detail.Detail;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,9 +11,11 @@ import java.util.List;
 
 @Getter
 @Setter
-@XmlRootElement(name = "GetPrice")
+@XmlRootElement(name = "Currencies")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class GetPrice {
-    @XmlElement(name = "Detail")
-    private List<Detail> list;
+public class Currencies {
+
+    @XmlElement(name = "Currency")
+    private List<Currency> currencies;
+
 }

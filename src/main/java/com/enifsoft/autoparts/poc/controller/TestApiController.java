@@ -1,8 +1,8 @@
-package com.enifsoft.autoParts.poc.controller;
+package com.enifsoft.autoparts.poc.controller;
 
-import com.enifsoft.autoParts.poc.config.TehnomirConfig;
-import com.enifsoft.autoParts.poc.dto.tehnomir.GetPrice;
-import com.enifsoft.autoParts.poc.dto.tehnomir.producers.GetProducers;
+import com.enifsoft.autoparts.poc.config.TehnomirConfig;
+import com.enifsoft.autoparts.poc.dto.tehnomir.GetPrice;
+import com.enifsoft.autoparts.poc.dto.tehnomir.producers.GetProducers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
