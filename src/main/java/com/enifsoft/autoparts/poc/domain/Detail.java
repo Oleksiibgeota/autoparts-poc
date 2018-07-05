@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.domain;
+package com.enifsoft.autoparts.poc.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -17,7 +17,7 @@ public class Detail {
     private String deliveryType;
     private int deliveryTime;
     private String deliveryDate;
-    private String DamagedFlag;
+    private String damagedFlag;
     private String usedFlag;
     private String restoredFlag;
 }

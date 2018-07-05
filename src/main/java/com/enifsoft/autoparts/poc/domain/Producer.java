@@ -1,4 +1,4 @@
-package com.enifsoft.autoParts.poc.domain;
+package com.enifsoft.autoparts.poc.domain;
 
 import lombok.Getter;
 import lombok.Setter;
