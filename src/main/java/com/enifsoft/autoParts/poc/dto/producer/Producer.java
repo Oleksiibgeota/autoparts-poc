@@ -1,4 +1,4 @@
-package com.enifsoft.autoparts.poc.domain;
+package com.enifsoft.autoParts.poc.dto.producer;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -13,8 +13,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Getter
 @Setter
 public class Producer {
-    @XmlAttribute(name="id")
+    @XmlAttribute(name = "id")
     private int id;
-    @XmlAttribute(name="name")
+    @XmlAttribute(name = "name")
     private String name;
 }
