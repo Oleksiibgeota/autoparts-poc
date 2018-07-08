@@ -1,6 +1,5 @@
-package com.enifsoft.autoParts.poc.dto.tehnomir;
+package com.enifsoft.autoParts.poc.dto.detail;
 
-import com.enifsoft.autoparts.poc.dto.tehnomir.detail.Detail;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,11 +9,18 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-@Getter
-@Setter
 @XmlRootElement(name = "GetPrice")
 @XmlAccessorType(XmlAccessType.FIELD)
+@Getter
+@Setter
 public class GetPrice {
     @XmlElement(name = "Detail")
-    private List<Detail> list;
+    private List<Detail> detail;
+
+    @Override
+    public String toString() {
+        return "GetPrice{" +
+                "detail=" + detail +
+                '}';
+    }
 }

@@ -41,4 +41,24 @@ public class Detail {
     private String usedFlag;
     @XmlElement(name = "RestoredFlag")
     private String restoredFlag;
+
+    @Override
+    public String toString() {
+        return "Detail{" +
+                "brand='" + brand + '\'' +
+                ", number=" + number +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", currency='" + currency + '\'' +
+                ", supplierCode='" + supplierCode + '\'' +
+                ", quantity=" + quantity +
+                ", weight=" + weight +
+                ", deliveryType='" + deliveryType + '\'' +
+                ", deliveryTime=" + deliveryTime +
+                ", deliveryDate='" + deliveryDate + '\'' +
+                ", damagedFlag='" + damagedFlag + '\'' +
+                ", usedFlag='" + usedFlag + '\'' +
+                ", restoredFlag='" + restoredFlag + '\'' +
+                '}';
+    }
 }
