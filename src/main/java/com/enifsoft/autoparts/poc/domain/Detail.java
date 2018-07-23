@@ -1,4 +1,4 @@
-package com.enifsoft.autoparts.poc.domain;
+package com.enifsoft.autoParts.poc.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 public class Detail {
     private String brand;
-    private int number;
+    private String number;
     private String name;
     private Double price;
     private String currency;
